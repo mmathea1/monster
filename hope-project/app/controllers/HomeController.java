@@ -18,15 +18,16 @@ public class HomeController extends Controller {
      */
     /*@Deprecated*/
     public static Http.Cookie builder(java.lang.String name,
-                                      java.lang.String value,
-                                      java.lang.Integer maxAge,
+                                      java.lang.String value)
+                                      /*java.lang.Integer maxAge,
                                       java.lang.String path,
                                       java.lang.String domain,
                                       boolean secure,
                                       boolean httpOnly,
-                                      Http.Cookie.SameSite STRICT)
+                                      Http.Cookie.SameSite STRICT)*/
     {
-        return builder("clientCook", "blue", Duration.ofSeconds(3600), "/index", "localhost:9000", false, true);
+        return builder("clientCook", "blue");
+        /*Duration.ofSeconds(3600), "/index", "localhost:9000", false, true*/
     }
 
     public Result index() {
