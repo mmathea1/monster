@@ -1,0 +1,21 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(C:\Users\Mingina\Workspace\hope\hope-project\app\controllers\HomeController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Mingina\Workspace\hope\hope-project\app\controllers\HomeController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Mingina\Workspace\hope\hope-project\app\controllers\HomeController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Mingina\Workspace\hope\hope-project\app\controllers\HomeController.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\Mingina\Workspace\hope\hope-project\target\scala-2.12\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\Mingina\Workspace\hope\hope-project\app\controllers\HomeController.java:29:  error: cannot find symbol[0m
+[0m[[31merror[0m] [0m        return builder("clientCook", "blue", Duration.ofSeconds(3600), "/index", "localhost:9000", false, true);[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) javac returned nonzero exit code[0m
